@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Mangaka_japan/static/css/main.dcd470a7.css",
+    "main.js": "/Mangaka_japan/static/js/main.c1001cbf.js",
+    "static/js/488.40f4fe61.chunk.js": "/Mangaka_japan/static/js/488.40f4fe61.chunk.js",
+    "static/media/chibi-luffy.png": "/Mangaka_japan/static/media/chibi-luffy.03b4a9dc21db5ba350a5.png",
+    "static/media/offline.jpg": "/Mangaka_japan/static/media/offline.189c512b20986ac4429d.jpg",
+    "static/media/aot3 banner.jpg": "/Mangaka_japan/static/media/aot3 banner.c88540645c1218bf546e.jpg",
+    "static/media/opm3.jpg": "/Mangaka_japan/static/media/opm3.2ee6163e1288cbdac039.jpg",
+    "static/media/deathnote3.jpg": "/Mangaka_japan/static/media/deathnote3.050fbb8f1d696f7f79b0.jpg",
+    "static/media/op3.jpg": "/Mangaka_japan/static/media/op3.4d470b0cb87e45f36cc8.jpg",
+    "index.html": "/Mangaka_japan/index.html",
+    "main.dcd470a7.css.map": "/Mangaka_japan/static/css/main.dcd470a7.css.map",
+    "main.c1001cbf.js.map": "/Mangaka_japan/static/js/main.c1001cbf.js.map",
+    "488.40f4fe61.chunk.js.map": "/Mangaka_japan/static/js/488.40f4fe61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcd470a7.css",
+    "static/js/main.c1001cbf.js"
+  ]
+}

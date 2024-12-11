@@ -6,6 +6,7 @@ import { EXPLORE } from './pages/explorepage'
 import { SINGLEMANGA } from './pages/singlemanga';
 import { MANGAREAD } from './pages/mangaread'; 
 import { useEffect, useState } from 'react';
+import { HashRouter } from 'react-router-dom';
 
 function App() {
   const [currentmanga, setcurrentmanga] = useState(MANGADATA.filter((manga)=> manga.id==1))
@@ -29,7 +30,7 @@ function App() {
   return (
     
     <div  className="App">
-      <BrowserRouter>
+      <HashRouter>
       <Routes>
         <Route path='/' element={<HOME  mangadata={MANGADATA} />}></Route>
         <Route path='/explore' element={<EXPLORE targetmanga={Targetmanga} mangadata={MANGADATA}/>}></Route>
@@ -37,7 +38,7 @@ function App() {
         <Route path='/mangaread' element={<MANGAREAD currentchapter= {chapter} />} ></Route>  
       </Routes>
       
-      </BrowserRouter>
+      </HashRouter>
       
     </div>
   );
